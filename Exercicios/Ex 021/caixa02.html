@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <STYle>
+       body{
+           font-family: Arial, Helvetica, sans-serif;
+           background-color: dimgray;
+           margin: 0px;
+       }
+       h1{
+           
+       }
+       header {
+           background-color: white;
+           padding: 15px;
+           margin: 10px;
+       }
+       main{
+        background-color: white;
+           padding: 10px;
+           margin: 10px;
+       }
+       article {
+           background-color: lightgray;
+           padding: 5px;
+       }
+
+       article >aside {
+           background-color: rgb(85, 84, 84);
+       }
+       nav{
+           background-color: rgb(156, 154, 154);
+           padding: 3px;
+           box-shadow: 1px 1px 1px rgb(0, 0, 0,0.493);
+       }
+       nav> a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+       }
+    footer{
+
+        background-color: black;
+           color: white;
+           text-align: center;
+           padding: 10px;
+           margin: 10px;
+
+     }
+     footer > p {
+         margin: 0px;
+     }
+    </STYle>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">lINK</a>
+            <a href="">lINK</a>
+            <a href="">lINK</a>
+            <a href="">lINK</a>
+            <a href="">lINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticas sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, ullam vitae nemo explicabo ducimus rem! Delectus temporibus velit expedita eum excepturi magni doloribus asperiores natus? Magnam alias architecto libero magni?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por João</p>
+    </footer>
+</body>
+</html>
